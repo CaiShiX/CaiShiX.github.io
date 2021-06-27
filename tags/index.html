@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, 知行阁">
+    <meta name="keywords" content="标签1, 知行阁">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | 知行阁</title>
+    <title>标签1 | 知行阁</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -76,37 +76,11 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/categories" class="waves-effect waves-light">
-
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
       <span>分类</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/wanjuanlou">
-          
-          <span>万卷楼</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/mojianshi">
-          
-          <span>磨剑室</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/daguanxuan">
-          
-          <span>达观轩</span>
-        </a>
-      </li>
-      
-    </ul>
     
   </li>
   
@@ -193,40 +167,12 @@
         
         <li class="m-nav-item">
 	  
-		<a href="javascript:;">
+		<a href="/categories" class="waves-effect waves-light">
 			
-				<i class="fa-fw fas fa-bookmark"></i>
+			    <i class="fa-fw fas fa-bookmark"></i>
 			
 			分类
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
-
-                  <a href="/wanjuanlou " style="margin-left:75px">
-				  
-		          <span>万卷楼</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/mojianshi " style="margin-left:75px">
-				  
-		          <span>磨剑室</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/daguanxuan " style="margin-left:75px">
-				  
-		          <span>达观轩</span>
-                  </a>
-                </li>
-              
-            </ul>
           
         </li>
         
@@ -333,10 +279,43 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/%E6%97%A5%E5%B8%B8%E9%97%B2%E8%AF%9D/" title="日常闲话: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="日常闲话" style="background-color: #F9EBEA;">日常闲话
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"日常闲话","weight":1,"link":"/tags/日常闲话/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
